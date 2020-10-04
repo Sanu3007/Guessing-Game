@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://raw.githubusercontent.com/bradtraversy/vanillawebprojects/master/speak-number-guess/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    border:2px solid #fff;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin:0 auto;
+    text-align: center;
+}
+
+h1,h3{
+    margin-bottom: 0;
+}
+p {
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .play-again {
+    padding: 8px 15px;
+    border: 0;
+    background: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .chance{
+    margin-top: 0;
+  }
+  
+  .msg {
+    font-size: 1.5em;
+    margin-top: 40px;
+  }
+  
+  .box {
+    border: 1px solid #dedede;
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+  }
